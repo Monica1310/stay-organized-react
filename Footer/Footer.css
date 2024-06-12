@@ -1,0 +1,78 @@
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #7db49f;
+    /* Dark navy blue background */
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles for Footer */
+.social-media-links .text-white {
+    font-size: 24px;
+}
+
+.social-media-links .text-white:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+footer .social-media-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+footer .social-media-links a:hover {
+    color: #f1c40f;
+}
+
+footer .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .social-buttons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-buttons a:hover {
+    color: #ffcc00;
+    /* Change to golden yellow on hover */
+    transform: scale(1.2);
+}
+
+footer .social-buttons a.facebook {
+    color: #3b5998;
+}
+
+footer .social-buttons a.twitter {
+    color: #1da1f2;
+}
+
+footer .social-buttons a.instagram {
+    color: #e4405f;
+}
+
+footer .social-buttons a.linkedin {
+    color: #0077b5;
+}
+
+footer .connect-with-us {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer .copyright {
+    margin-top: 10px;
+    font-size: 0.875em;
+    color: #ffffff;
+}

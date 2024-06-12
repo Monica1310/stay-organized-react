@@ -1,0 +1,27 @@
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 250px;
+}
+
+.popup p {
+    margin: 0 0 10px;
+}
+
+.popup ul {
+    padding-left: 20px;
+}
+
+.popup ul li {
+    margin-bottom: 5px;
+}
+
+.form-group {
+    position: relative;
+}
